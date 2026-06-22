@@ -3,6 +3,8 @@
 
 
 
+
+
   **Your premium, offline-first personal asset & warranty tracker.**
 
   <p>
