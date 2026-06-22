@@ -1,0 +1,74 @@
+name: trezo
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_local_notifications: ^20.1.0
+  go_router: ^17.2.3
+  google_mlkit_text_recognition: ^0.15.1
+  google_mlkit_entity_extraction: ^0.15.3
+  image_picker: ^1.2.2
+  isar: ^3.1.0+1
+  isar_flutter_libs: ^3.1.0+1
+  path_provider: ^2.1.5
+  provider: ^6.1.5+1
+  hugeicons: ^1.1.7
+  camera: ^0.11.1
+  permission_handler: ^11.3.1
+  shared_preferences: ^2.2.3
+  page_transition: ^2.2.2
+  photo_manager: ^3.9.0
+  animations: ^2.2.0
+  flutter_riverpod: ^2.6.1
+  logger: ^2.7.0
+  get_it: ^9.2.1
+  timezone: ^0.10.1
+  flutter_timezone: ^5.1.0
+  local_auth: ^3.0.1
+  flutter_secure_storage: ^10.3.1
+  crypto: ^3.0.7
+  encrypt: ^5.0.3
+  firebase_core: ^4.11.0
+  firebase_auth: ^6.5.3
+  google_sign_in: 6.2.1
+  cloud_firestore: ^6.6.0
+  url_launcher: ^6.3.0
+  image: ^4.8.0
+  google_fonts: ^8.1.0
+  figma_squircle: ^0.6.3
+  auto_animated: ^3.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  build_runner: ^2.4.13
+  isar_generator: ^3.1.0+1
+  riverpod_generator: ^2.4.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/glogo.png
+    - assets/images/tbg.png
+    - assets/images/splash.png
+
+    
+
+  fonts:
+    - family: LibreBaskerville
+      fonts:
+        - asset: assets/fonts/LibreBaskerville-VariableFont_wght.ttf

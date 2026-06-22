@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "87113156061",
+    "project_id": "trezo-7e992",
+    "storage_bucket": "trezo-7e992.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87113156061:android:38f41357f28a20d10ce234",
+        "android_client_info": {
+          "package_name": "com.sas.trezo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87113156061-1g4grcf7gevbkt9dooor4cngf3d09rr5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sas.trezo",
+            "certificate_hash": "08524966e6c30cae56a8e8156a2fe9d8798c78f0"
+          }
+        },
+        {
+          "client_id": "87113156061-qv9ot1quqfkjcktsb5rimqe8sa32i8fm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDNYQKgNkiLkC4BFK5iHyD_U7x54hmHSY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "87113156061-qv9ot1quqfkjcktsb5rimqe8sa32i8fm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
