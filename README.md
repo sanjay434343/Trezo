@@ -1,7 +1,7 @@
 <div align="center">
   <img src="assets/images/splash.png" alt="Trezo Logo" width="160" style="border-radius: 20%; box-shadow: 0 4px 15px rgba(255, 107, 53, 0.4);"/>
 
-  # Trezo
+
 
   **Your premium, offline-first personal asset & warranty tracker.**
 
