@@ -1,22 +1,14 @@
 <div align="center">
-  <img src="assets/images/splash.png" alt="Trezo Logo" width="460" style="border-radius: 20% margin-bottom:30px; box-shadow: 0 4px 15px rgba(255, 107, 53, 0.4);"/>
+  <img src="assets/images/splash.png" alt="Trezo Logo" width="460" style="border-radius: 20%; margin-bottom: 30px; box-shadow: 0 4px 15px rgba(255, 107, 53, 0.4);"/>
 
-
-
-
+  # Trezo
 
   **Your premium, offline-first personal asset & warranty tracker.**
 
   <p>
-    <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
-    <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart" />
-    <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" />
-  </p>
-
-  <p>
+    <a href="#bulb-what-it-solves">What it Solves</a> •
     <a href="#sparkles-features">Features</a> •
     <a href="#camera-screenshots">Screenshots</a> •
-    <a href="#wrench-tech-stack">Tech Stack</a> •
     <a href="#rocket-getting-started">Getting Started</a> •
     <a href="#shield-privacy--security">Privacy</a>
   </p>
@@ -24,23 +16,37 @@
 
 ---
 
-Trezo is a state-of-the-art mobile application built with Flutter that completely rethinks how you track personal assets, warranties, and receipts. Designed with a sleek, high-end dark aesthetic (`#161616` surfaces with `#FF6B35` neon orange accents), Trezo delivers a "wow" experience through fluid animations, squircle corners, and an uncompromising focus on user privacy.
+**Trezo completely rethinks how you manage your most valuable purchases.** Designed with a sleek, high-end dark aesthetic (`#161616` surfaces with `#FF6B35` neon orange accents), Trezo delivers a "wow" experience through fluid animations, premium squircle interfaces, and an uncompromising focus on user privacy.
+
+## :bulb: What it Solves
+
+We all own valuable items—laptops, smart appliances, expensive furniture, and premium gadgets. But when something breaks, finding the receipt or knowing if it's still under warranty is usually a nightmare of digging through email folders, searching physical shoeboxes, or dealing with outdated spreadsheets.
+
+**The result? You pay for repairs that should have been free.**
+
+Trezo solves this instantly by providing a unified, premium, on-device vault for all your assets.
+
+### The Trezo Advantage:
+*   **Stop Missing Free Repairs:** We've all missed a warranty window by just a few days. Trezo's dynamic visual countdowns and smart notifications ensure you know *exactly* when a warranty is about to expire, saving you hundreds of dollars in repair costs.
+*   **End the Paper Chase:** Snap a picture of your receipt, and our on-device Artificial Intelligence instantly extracts the brand, price, and purchase date. Your physical receipts can finally go in the trash.
+*   **Total Financial Clarity:** See the total value of all your active assets at a glance, beautifully organized in a premium dashboard.
+*   **Uncompromising Privacy:** Unlike other finance or tracking apps, Trezo **never** harvests your purchase data. Your vault stays 100% offline, securely encrypted on your phone.
 
 ## :sparkles: Features
 
-*   :lock: **Offline-First Vault:** Your assets are stored exclusively on your device using an encrypted local Isar database. Only your name and email touch the cloud.
-*   :mag_right: **Smart OCR Receipt Scanning:** Instantly extract brands, prices, and dates from receipts and invoices using on-device Machine Learning (Google ML Kit).
-*   :chart_with_upwards_trend: **Dynamic Visual Analytics:** Real-time circular progress rings track exactly how many days of warranty you have left.
-*   :bell: **Intelligent Reminders:** Get local push notifications 1 month, 1 week, and 1 day before an asset's warranty expires, or set completely custom dates.
-*   :art: **Premium UI/UX:** Built with `figma_squircle` for incredibly smooth iOS-style continuous curves, fluid `TweenAnimationBuilder` entry animations, and the elegant `Libre Baskerville` typeface.
-*   :key: **Biometric App Lock:** Secure your entire inventory behind Face ID or fingerprint authentication.
+*   :lock: **Offline-First Vault:** Your assets, receipts, and notes are stored exclusively on your device. Only your basic authentication info (name and email) ever touches the cloud. What's yours, stays yours.
+*   :mag_right: **Smart AI Receipt Scanner:** Don't type data manually. Just point your camera at an invoice, and our on-device Machine Learning instantly extracts the critical details like magic.
+*   :chart_with_upwards_trend: **Dynamic Visual Analytics:** Instantly gauge your coverage with real-time circular progress rings that visually track exactly how many days of warranty you have remaining.
+*   :bell: **Intelligent Reminders:** Never miss a deadline. Get automated local push notifications 1 month, 1 week, and 1 day before an asset's warranty expires. Need custom reminders? You can set those too.
+*   :art: **Unrivaled UI/UX:** Built for those who appreciate design. Experience incredibly smooth iOS-style continuous curves, fluid entry animations, glassmorphic elements, and the highly legible Libre Baskerville typeface.
+*   :key: **Biometric App Lock:** Your purchases are your business. Secure your entire Trezo inventory behind Face ID or fingerprint authentication for ultimate peace of mind.
 
 ## :camera: Screenshots
 
 <div align="center">
   <table style="border-collapse: collapse; border: none;">
     <tr>
-      <td align="center"><b>Home Dashboard</b></td>
+      <td align="center"><b>The Dashboard</b></td>
       <td align="center"><b>Asset Details</b></td>
       <td align="center"><b>Smart Scanner</b></td>
     </tr>
@@ -58,19 +64,6 @@ Trezo is a state-of-the-art mobile application built with Flutter that completel
   </table>
   <p><i>(Place your actual screenshots into the <code>assets/screenshots/</code> folder to display them here!)</i></p>
 </div>
-
-## :wrench: Tech Stack
-
-Trezo leverages modern packages to ensure maximum performance and beautiful design:
-
-| Layer | Technologies Used |
-| :--- | :--- |
-| **Framework** | Flutter, Dart |
-| **Local Storage** | Isar Database (`isar`, `isar_flutter_libs`) |
-| **Authentication** | Firebase Auth, Google Sign-In |
-| **Machine Learning** | `google_mlkit_text_recognition`, `google_mlkit_entity_extraction` |
-| **UI & Animations** | `figma_squircle`, `auto_animated`, `google_fonts`, `hugeicons` |
-| **Device Integrations** | `flutter_local_notifications`, `local_auth`, `camera`, `image_picker` |
 
 ## :rocket: Getting Started
 
@@ -94,7 +87,7 @@ Follow these instructions to build and run Trezo locally on your machine.
     flutter pub get
     ```
 
-3.  **Generate Isar Database Files**
+3.  **Generate Database Files**
     ```bash
     flutter pub run build_runner build --delete-conflicting-outputs
     ```
